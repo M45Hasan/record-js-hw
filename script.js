@@ -11,6 +11,7 @@ buon.addEventListener("click", function () {
 
 let ull = document.querySelector(".ull");
 let newLi = document.createElement("li");
+newLi.style.background = "green";
 
 newLi.innerHTML = "No.7 from JS";
 
@@ -24,7 +25,7 @@ console.log(x);
 for (let i = 0; i <= x.length; i++) {}
 console.log(x[2].nextElementSibling.before(newLi));*/
 
-ull.children[1].before(newLi);
+ull.children[prompt()].before(newLi);
 
 //ull.append(newLi);
 

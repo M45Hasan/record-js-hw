@@ -17,12 +17,14 @@ newLi.innerHTML = "No.7 from JS";
 //ull.before(newLi);
 //ull.after(newLi);
 
-let x = ull.children;
+/*let x = ull.children;
 
 console.log(x);
 
 for (let i = 0; i <= x.length; i++) {}
-console.log(x[2].nextElementSibling.before(newLi));
+console.log(x[2].nextElementSibling.before(newLi));*/
+
+ull.children[1].before(newLi);
 
 //ull.append(newLi);
 
